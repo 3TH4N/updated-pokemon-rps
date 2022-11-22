@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://wallpapertag.com/wallpaper/full/6/4/b/429336-cool-all-pokemon-wallpaper-1920x1080-for-4k-monitor.jpg);
+    background-size: cover;
+}
+
+.picsrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.picsize {
+    height: 250px;
+    width: 250px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgray;
+    opacity: 0.9;
+    transition: all 0.4s ease 0s;
+}
+
+.scoreboard {
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 60px;
+    background-color: black;
+    height: auto;
+    width: 50%;
+}
+
+.response {
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 30px;
+    background-color: black;
+    height: auto;
+    width: 50%;
+}
+
+p {
+    text-align: center;
+    color:aliceblue;
+}
